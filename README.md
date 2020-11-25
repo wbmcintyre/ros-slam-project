@@ -1,8 +1,14 @@
 
-
+# ROS SLAM Project
 This repository contains catkin packages used with standard ros packages as examples for SLAM implementations.
 
 This repository should be exported into the src folder of a catkin workspace. Each package inside of this repository will be addressed below.
+
+## Setup
+
+Please ensure the following are installed prior to running this project: gazebo, rviz, xterm.
+
+The `.sh` files in the scripts folder will launch several launch files and ros nodes. By navigating to the scripts folder in a terminal, you can use `./home_services.sh` to run the home_services script. The scripts can take up to 30 seconds to load due to multiple applications launching. 
 
 ## Packages
 
