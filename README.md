@@ -1,12 +1,14 @@
 
 # ROS SLAM Project
-This repository contains catkin packages used with standard ros packages as examples for SLAM implementations.
+This repository contains catkin packages used with standard ros packages as examples for SLAM implementations. ROS Kinetic was used for 
 
 This repository should be exported into the src folder of a catkin workspace. Each package inside of this repository will be addressed below.
 
 ## Setup
 
-Please ensure the following are installed prior to running this project: gazebo, rviz, xterm.
+Please ensure the following are installed prior to building and running this project: gazebo, rviz, xterm, ros-kinetic-joy, ros-kinetic-openslam_gmapping, ros-kinetic-move_base, ros-kinetic-kobuki, ros-kinetic-turtlebot.
+
+All of the gazebo models in the models folder must be accessible to gazebo. I utilized the .gazebo/models folder in the home directory.
 
 The `.sh` files in the scripts folder will launch several launch files and ros nodes. By navigating to the scripts folder in a terminal, you can use `./home_services.sh` to run the home_services script. The scripts can take up to 30 seconds to load due to multiple applications launching. 
 
