@@ -1,6 +1,6 @@
 
 # ROS SLAM Project
-This repository contains catkin packages used with standard ros packages as examples for SLAM implementations. ROS Kinetic was used for 
+This repository contains catkin packages used with standard ros packages as examples for SLAM implementations.
 
 This repository should be exported into the src folder of a catkin workspace. Each package inside of this repository will be addressed below.
 
@@ -37,4 +37,4 @@ The `.sh` files in the scripts folder will launch several launch files and ros n
 
 ## License
 
-The content of this repository is licensed under a [Creative Commons Attribution License](https://creativecommons.org/licenses/by/3.0/us/)
+The content of this repository is licensed under a [Creative Commons Attribution License](https://creativecommons.org/licenses/by/3.0/us/).
